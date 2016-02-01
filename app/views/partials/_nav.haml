@@ -12,6 +12,8 @@
 					=link_to "", class:"right-space white-text" do
 						%i.mdi-action-alarm
 						Descuentos
+					=link_to "Cerrar sesión",destroy_user_session_path,method: :delete ,class:"right-space white-text"
+						
 			%li.col-md-4.inline-block.text-center.tall-padding
 				=image_tag "tiendus.png",height:"25px"
 			%li.col-md-4.inline-block.tall-padding
