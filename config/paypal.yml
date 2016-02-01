@@ -25,5 +25,6 @@ development:
   <<: *default
 
 production:
-  <<: *default
+  client_id: AS1_EBBiHCk2ttqclCyijhp-XYJ8g8lfk9_6kWGSYn_gl6So8ab808lNxJWI
+  client_secret: ECClKRBH5WVYaeKRZo1EfW8rqhl5pYmM_CNO_3y0uMfA_oyBaZ0yET5-_p2w
   mode: live
