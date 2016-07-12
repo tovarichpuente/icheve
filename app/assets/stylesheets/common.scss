@@ -3,16 +3,27 @@
 $green: #16a085;
 $grey: #5A6576;
 $other-grey: #E7ECEE;
-$blue: #058CC5;
+$blue: #125566;
 $red: #d2527f;
 $light-blue: #3498DB;
 $teal: #009688;
+$cafe: #513F3F;
+$yellow:#FDBB3E;
 /*Texto*/
 .bold{
 	font-weight:bold;
 }
 
 /* Colores */
+.yellow{
+	background-color: $yellow;
+}
+.cafe{
+	background-color: $cafe;
+}
+.cafe-text{
+	color: $cafe;
+}
 .white{
 	background-color:white;
 }
@@ -114,8 +125,3 @@ $teal: #009688;
 .ultra-big{
 	font-size:7em;
 }
-
-
-
-
-

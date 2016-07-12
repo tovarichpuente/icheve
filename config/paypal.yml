@@ -1,20 +1,20 @@
 test: &default
 
   # Credentials for REST APIs
-  client_id: Ab2OEun1GjD-p4xlEXh49yzGPc0XY_rnAY5Dqe_c_vMio42IRtytrUPN0_KpbyvNNGK_SJtNjMSQhJzX
-  client_secret: EDZAXvTD7sV3o3OAJlOPu5BHk37MeyMKsf30fH8UmmkE7n3mzir6I1S-IwLYLwWMs0cA8FjS_spBUix5
+  client_id: 
+  client_secret: 
 
   # Mode can be 'live' or 'sandbox'
   mode: sandbox
 
   # Credentials for Classic APIs
-  app_id: APP-80W284485P519543T
-  username: jb-us-seller_api1.paypal.com
-  password: WX4WTU3S8MY44S7F
-  signature: AFcWxV21C7fd0v3bYYYRCpSSRl31A7yDhhsPUU2XhtMoZXsWHFxu-RWy
+  app_id: 
+  username: 
+  password: 
+  signature: 
   # # With Certificate
   # cert_path: "config/cert_key.pem"
-  sandbox_email_address: codigofacilito@facilito.com
+  sandbox_email_address: 
 
   # # IP Address
   # ip_address: 127.0.0.1
@@ -25,6 +25,6 @@ development:
   <<: *default
 
 production:
-  client_id: AS1_EBBiHCk2ttqclCyijhp-XYJ8g8lfk9_6kWGSYn_gl6So8ab808lNxJWI
-  client_secret: ECClKRBH5WVYaeKRZo1EfW8rqhl5pYmM_CNO_3y0uMfA_oyBaZ0yET5-_p2w
+  client_id: 
+  client_secret: 
   mode: live
